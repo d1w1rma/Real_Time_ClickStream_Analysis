@@ -16,7 +16,7 @@ application = Application([
 (r".*", FallbackHandler, dict(fallback=tr)),
 ])
 
-print 'shit'
+print 'haha'
 
 if __name__ == "__main__":
     application.listen(80)
