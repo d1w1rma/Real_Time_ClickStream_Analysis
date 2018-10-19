@@ -16,6 +16,8 @@ application = Application([
 (r".*", FallbackHandler, dict(fallback=tr)),
 ])
 
+print 'shit'
+
 if __name__ == "__main__":
     application.listen(80)
     IOLoop.instance().start()
